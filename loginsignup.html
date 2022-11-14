@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="myntra.ico" type="image/x-icon">
+  <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-3.6.1.js"></script>
+  <style>
+    
+    .signupformcontainer{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        height: 100vh;
+        background-color: #f7eaec;
+    }
+    .signupform{
+        padding: 5px;
+        background-color: whitesmoke;
+        /* border: 3px solid red; */
+        height: 600px;
+        width: 350px;
+        /* margin: 20px 20px; */
+        margin-top: 10px;
+    }
+    h3{
+        display: block;
+       text-align: center;
+       /* border: 2px solid black; */
+       /* background-color: antiquewhite; */
+       margin: 8px 50px;
+       /* min-height: 20vh; */
+    }
+    .sales{
+        display: block;
+        margin:10px auto;
+        height: 70px;
+        width: 100px;
+    }
+    .register{
+        display: block;
+        margin: 0px auto;
+        padding:7px 30px;
+        width: 70%;
+        background-color:#d00d69;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .register:hover{
+        background-color: black;
+        color: white;
+    }
+    
+   form div{
+    margin: 20px;
+   }
+  </style>
+</head>
+
+<body>
+  <header class="containerHeader">
+    <nav class="flex space-between">
+      <div class="left flex items-center">
+        <img src="logo.png" />
+        <ul class="flex items-center justify-center uppercase semibold">
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Home and Living</li>
+          <li>Beauty</li>
+          <li>Studio</li>
+        </ul>
+      </div>
+      <div class="right flex items-center">
+        <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value=""
+          data-reactid="904">
+        <div class="rightBox">
+          <div class="profile mx-2">Profile
+            <div id="loginsignup">
+              <div id="loginsignupbox">
+                <p> <a href="loginsignup.html" target="_blank">Login/Signup </a></p>
+                <ul class="itemscontainer">
+                  <li class="item">Orders</li>
+                  <li class="item">Wishlist</li>
+                  <li class="item">Gift Cards</li>
+                  <li class="item">Contact Us</li>
+                  <li class="item">Address</li>
+                  <li class="item">Myntra Credit</li>
+                  <li class="item">Saved Cards</li>
+                  <li class="item">Saved VPA</li>
+                  
+                </ul>
+              </div>
+            </div>
+            <img src="Profile.jpg" id="profile" alt="unable to load">
+          </div>
+          <div class="wishlist mx-2">WishList
+            <img id="wishlist" src="wishlist.png" alt="unable to load">
+          </div>
+          <div class="bag mx-2">Bag
+            <img id="bag" src="cartbag.png" alt="unable to load">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="signupformcontainer">
+    <div class="signupform"><h3 >Login or Signup </h3>
+        <img class="sales" src="sales.png" alt="">
+        <div class="form">
+            <form action="php.backend">
+                <div>
+                Name : <input type="text" name="">
+            </div>
+
+            <div>
+                Mobile No.:<input type="tel" name="mynumber">
+            </div>
+
+            <div>
+                Address: : <input type="text" name="" id="">
+            </div>
+            Landmark:<input type="text" name="" id=""/>
+
+                <div>
+                    Gender:male<input type="radio" name="mygender"> female<input type="radio" name="mygender"> others<input type="radio" name="mygender">
+                </div>
+                <button class="register">Register</button>
+            </form>
+
+           
+        </div>
+    </div>
+  
+     
+  <script>
+
+
+
+  </script>
+  </body>
+    
+  

@@ -27,6 +27,44 @@ header{
     margin: -12px 3px;
     cursor: pointer;
   }
+  #loginsignup{
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 350px;
+    width: 250px;
+    background-color:white;
+    margin: 20px 3px;
+    display: none;
+  }
+  #loginsignupbox{
+    height: 30px;
+    width: 135px;
+    border: 1px solid red;
+    color: RED;
+    font-weight: bold;
+  }
+  .itemscontainer li{
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+  }
+  .itemscontainer li:hover{
+    columns: blue;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #loginsignupbox p{
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #loginsignupbox p a{
+    text-decoration: none;
+  }
+  
   #wishlist{ 
    height: 30px;
     width: 30px;
@@ -89,6 +127,10 @@ nav ul li{
   width: 80vw;
   margin: 12px 0;
 }
+.homeImg2{
+  width: 80vw;
+  margin: 12px 0;
+}
 
 .itemImg{
   width: 10vw;
@@ -142,3 +184,8 @@ header{
     margin: 12px;
   }
 }
+.imgbox{
+  position: relative;
+  overflow: hidden;
+}
+

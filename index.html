@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-   <link rel="shortcut icon" href="myntra.ico" type="image/x-icon">
- <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+  <link rel="shortcut icon" href="myntra.ico" type="image/x-icon">
+  <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="utils.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-3.6.1.js"></script>
 </head>
 
 <body>
   <header class="containerHeader">
     <nav class="flex space-between">
       <div class="left flex items-center">
-  <img src="logo.png"/>
+        <img src="logo.png" />
         <ul class="flex items-center justify-center uppercase semibold">
           <li>Men</li>
           <li>Women</li>
@@ -24,43 +26,112 @@
         </ul>
       </div>
       <div class="right flex items-center">
-        <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value="" data-reactid="904">
+        <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value=""
+          data-reactid="904">
         <div class="rightBox">
-        <div class="profile mx-2">Profile
-               <img src="Profile.jpg" id="profile" alt="unable to load">
-        </div>
-        <div class="wishlist mx-2">WishList
-          <img id="wishlist" src="wishlist.png" alt="unable to load">
-        </div>
-        <div class="bag mx-2">Bag
-          <img id="bag" src="cartbag.png" alt="unable to load">
-        </div>
+          <div class="profile mx-2">Profile
+            <div id="loginsignup">
+              <div id="loginsignupbox">
+                <p> <a href="loginsignup.html" target="_blank">Login/Signup </a></p>
+                <ul class="itemscontainer">
+                  <li class="item">Orders</li>
+                  <li class="item">Wishlist</li>
+                  <li class="item">Gift Cards</li>
+                  <li class="item">Contact Us</li>
+                  <li class="item">Address</li>
+                  <li class="item">Myntra Credit</li>
+                  <li class="item">Saved Cards</li>
+                  <li class="item">Saved VPA</li>
+                  
+                </ul>
+              </div>
+            </div>
+            <img src="Profile.jpg" id="profile" alt="unable to load">
           </div>
+          <div class="wishlist mx-2">WishList
+            <img id="wishlist" src="wishlist.png" alt="unable to load">
+          </div>
+          <div class="bag mx-2">Bag
+            <img id="bag" src="cartbag.png" alt="unable to load">
+          </div>
+        </div>
       </div>
     </nav>
   </header>
-  <section class="container section1">
-   <img class="homeImg" src="home.png"/>
-    <img class="homeImg" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/13/e34b394c-36b1-4774-8639-5aeb2c5716121652442642122-DK-TSHIRT-67--1-.gif"/>
-    <img class="homeImg" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/1e599d37-1ed6-4e39-9057-ffb4065173b51651897264796-Unbelievable-Deals.jpg"/>
+  <section id="box" class="container section1">
+    <div id="imgbox">
+      <img class="homeImg" src="home.png" />
+      <img class="homeImg" src="home2.png" />
+      <img class="homeImg" src="home3.png" />
+      <img class="homeImg" src="home4.png" />
+
+    </div>
+    <img class="homeImg2"
+      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/13/e34b394c-36b1-4774-8639-5aeb2c5716121652442642122-DK-TSHIRT-67--1-.gif" />
+    <img class="homeImg"
+      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/1e599d37-1ed6-4e39-9057-ffb4065173b51651897264796-Unbelievable-Deals.jpg" />
   </section>
   <section class="container section1 flex flex-wrap">
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/5d1b7ad3-c3ed-4ef9-a654-18231743d3cd1651484798059-Anouk-Inddus.jpg"/>
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/f7575784-edbf-411f-acc0-51891ea7f4331651484798329-Inddus-_Varanga.jpg"/>
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/ce40419d-6408-404e-9320-96e41aee1b791651484798300-Hrx-_Puma_-_More.jpg"/>
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/44192c45-7393-4ede-a926-11f30b0b92a51651484798036-All.jpg"/>
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/764761e7-c505-459e-92a2-6c4387f9e2511651484798319-Hush_Puppies-_Arrow.jpg"/> 
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/2f424664-e746-4af1-b0e1-366ccb0f2c681651484798552-Red_Tape.jpg"/>
-    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg"/>
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/5d1b7ad3-c3ed-4ef9-a654-18231743d3cd1651484798059-Anouk-Inddus.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/f7575784-edbf-411f-acc0-51891ea7f4331651484798329-Inddus-_Varanga.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/ce40419d-6408-404e-9320-96e41aee1b791651484798300-Hrx-_Puma_-_More.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/44192c45-7393-4ede-a926-11f30b0b92a51651484798036-All.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/764761e7-c505-459e-92a2-6c4387f9e2511651484798319-Hush_Puppies-_Arrow.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/2f424664-e746-4af1-b0e1-366ccb0f2c681651484798552-Red_Tape.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/78b92187-7e50-4a56-9c09-3017476550d11667206671012-Ethnic-Wear.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/ecb964f3-24dd-489c-b0f4-7ef64a3c20901667207189928-T-Shirts.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/184ca3ac-f533-4f11-a153-eb4b673bf6371667207041137-Nightwear.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/f4429388-8d94-40cd-bd00-4440b21875a81667207041184-Suits-_-Blazers.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/368edeaf-d1ac-4559-a9cf-8fe9343239861667206790322-Jeans-1.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/83d10fcd-3447-4970-906a-c21d74ed24421667207041163-Shorts-_-Skirts.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/d1eb6c5b-6592-4b67-89cf-4ec5445893811667207189899-Tops-_-Tees.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/958d755d-c5ba-4a1a-9425-720203dc62b51667207041150-Sarees.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/74951ae7-57b9-4c48-aed6-7ca8a713dd101667206671024-Flip-Flops.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/20736b51-6dd0-4d49-ae84-7bd72012dc1f1667206524809-Casual-Shoes.jpg" />
+    <img class="itemImg"
+      src="https://assets.myntassets.com/f_webp,w_98,c_limit,fl_progressive,dpr_2.0/assets/images/2022/10/31/1dc66cec-d11a-4a88-aa02-a523599223a81667207041124-Loungewear-1.jpg" />
   </section>
 
   <section class="tall">
-    
+
   </section>
   <footer>
     Copyright &copy; myntra.com | All rights reserved
   </footer>
   <script src="script.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      $("#profile").hover(function () {
+        $("#loginsignup").css("display", "block");
+      });
+    });
+
+    $(document).ready(function () {
+      $("#loginsignup").mouseleave(function () {
+        $("#loginsignup").css("display", "none");
+      });
+    });
+
+  </script>
 </body>
 
 </html>
