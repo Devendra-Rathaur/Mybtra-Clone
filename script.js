@@ -1,30 +1,24 @@
-console.log("Welocme to Myntra");
-const slides = document.querySelectorAll(".homeImg");
-// console.log(slides);
-var counter = 0;
-slides.forEach(
-    (slide,index) =>{
-        slide.style.left = `${index* 100}%`
+console.log("Welcom to Myntra");
+function validateForm() {
+    var name = document.myForm.name.value;
+    var mynumber = document.myForm.mynumber.value;
+    var address = document.myForm.address.value;
+    var landmark = document.myForm.landmark.value;
+    if (name == null || name == "") {
+        alert("Name cant be blank");
+        return false;
     }
-)
+    else if (mynumber == null || mynumber == "") {
+        alert("Number cant be blank");
+        return false;
+    }
+    else if (address == null || address == "") {
+        alert("Address cant be blank");
+        return false;
+    }
+     else if (landmark == null || landmark == "") {
+        alert("Landmark cant be blank");
+        return false;
+    }
 
-const goPrev = () => {
-    counter--;
-    slideImage();
 }
-const goNext = () => {
-    counter++;
-    slideImage();
-}
-
-
-const slideImage = () => {
-    slides.forEach(
-        (slide) => {
-            slide.style.transform = `translateX(${counter * 100}%)`
-        }
-    )
-
-    
-}
-

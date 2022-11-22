@@ -112,9 +112,9 @@
     <div class="signupform"><h3 >Login or Signup </h3>
         <img class="sales" src="sales.png" alt="">
         <div class="form">
-            <form action="php.backend">
+            <form action="php.backend" name="myForm" onsubmit="return validateForm()">
                 <div>
-                Name : <input type="text" name="">
+                Name : <input type="text" name="name">
             </div>
 
             <div>
@@ -122,9 +122,9 @@
             </div>
 
             <div>
-                Address: : <input type="text" name="" id="">
+                Address: : <input type="text" name="address" id="">
             </div>
-            Landmark:<input type="text" name="" id=""/>
+            Landmark:<input type="text" name="landmark" id=""/>
 
                 <div>
                     Gender:male<input type="radio" name="mygender"> female<input type="radio" name="mygender"> others<input type="radio" name="mygender">
@@ -137,11 +137,7 @@
     </div>
   
      
-  <script>
-
-
-
-  </script>
+  <script src="script.js"></script>
   </body>
     
   
